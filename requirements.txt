@@ -1,0 +1,6 @@
+streamlit
+pandas
+prophet
+plotly
+google-generativeai
+fpdf
