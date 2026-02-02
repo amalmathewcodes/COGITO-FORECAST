@@ -1,37 +1,40 @@
-# 📊 COGITO-FORECAST
+# COGITO-FORECAST 📊
 
-**An Automated Financial Intelligence Dashboard for SMBs**
+**Automated Financial Intelligence & Forecasting Dashboard for SMBs**
 
-COGITO-FORECAST is a hybrid AI application designed to democratize financial analysis. It integrates **Meta's Prophet** model for time-series forecasting with **Google's Gemini API** to provide automated, natural-language business insights.
+## 📖 Project Overview
+COGITO-FORECAST is a lightweight, open-source web application designed to democratize financial intelligence for Small and Medium-sized Businesses. It functions as a "Virtual Financial Analyst," bridging the gap between raw accounting data and strategic foresight.
 
-## 🚀 Features
-* **Automated Forecasting:** Generates 12-month predictions for Revenue and Expenses.
-* **AI Analyst:** Instantly analyzes trends and risks using Generative AI.
-* **Strategic Planner:** Provides actionable business steps to improve profitability.
-* **Reporting:** Exports comprehensive financial reports to PDF.
+The system allows users to:
+1.  **Upload** raw financial CSV data.
+2.  **Visualize** historical performance and future trajectories.
+3.  **Generate** AI-driven strategic insights and action plans.
+4.  **Export** comprehensive PDF reports for offline decision-making.
 
-## 🛠️ Tech Stack
-* **Frontend:** Streamlit
-* **Forecasting:** Prophet (Meta)
-* **AI:** Google Gemini API (Free Tier)
-* **Data:** Pandas & Plotly
+---
 
-## 💻 How to Run Locally
+## ⚠️ Assessment Configuration (Simulation Mode)
+**NOTE TO ASSESSOR:** This repository contains the **"Simulation Build" (v1.0-academic)** submitted for the Final Project assessment.
 
-**1. Clone the Repository**
+To ensure **100% reproducibility**, **offline stability**, and **security** on any assessment machine, this version implements a "Service Mocking" architecture:
+* **Forecasting Engine:** Utilizes a linear projection algorithm to mimic the *Facebook Prophet* workflow without requiring complex C++ compiler dependencies (PyStan) on Windows.
+* **Intelligence Layer:** Utilizes a deterministic mock response pattern to simulate the *Google Gemini API*. This prevents API key leakage and ensures the demo runs successfully even without an internet connection.
+
+---
+
+## 🚀 Installation & Setup
+
+### Prerequisites
+* Python 3.8 or higher
+
+### Step 1: Clone the Repository
 ```bash
 git clone [https://github.com/amalmathewcodes/COGITO-FORECAST.git](https://github.com/amalmathewcodes/COGITO-FORECAST.git)
 cd COGITO-FORECAST
-2. Install Dependencies
 
+Step 2: Install Dependencies
 Bash
-
 pip install -r requirements.txt
-3. Run the Dashboard
-
+Step 3: Run the Application
 Bash
-
 streamlit run app.py
-The application will open in your browser at http://localhost:8501.
-
-Developed by Amal Mathew for Advanced Computer Science Project.
