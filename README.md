@@ -38,31 +38,32 @@ pip install -r requirements.txt
 Step 3: Run the Application
 Bash
 streamlit run app.py
+```
+## 🧪 How to Test (Demo Data)
+To facilitate immediate testing without creating your own data, a sample dataset (`sample_financials.csv`) has been included in this repository.
 
-🧪 How to Test (Demo Data)
-To facilitate immediate testing, a sample dataset has been provided in this repository.
+1.  **Download the Data:**
+    * Click on the file `sample_financials.csv` in the file list above.
+    * Click the **"Download raw file"** icon (or copy the text into a local CSV file).
+2.  **Launch the App:**
+    ```bash
+    streamlit run app.py
+    ```
+3.  **Run the Simulation:**
+    * In the Sidebar, click **"Browse files"** and select `sample_financials.csv`.
+    * Click the **"🚀 Run Forecast Model"** button to see the trajectory visualization.
+    * Click **"📈 AI Analysis"** to generate the strategic text report.
+    * Click **"📄 Download PDF"** to export the final document.
 
-Download the file sample_financials.csv from the file list above.
+---
 
-Launch the app using the command above.
+## 🛠️ Technology Stack
+* **Frontend:** Streamlit (Web Framework)
+* **Data Processing:** Pandas (Time-series manipulation)
+* **Visualization:** Plotly (Interactive Charts)
+* **Reporting:** FPDF (PDF Generation Engine)
+* **Architecture:** Modular "Input → Process → Export" Pipeline
 
-In the Sidebar, click "Browse files" and select sample_financials.csv.
+---
 
-Click the "🚀 Run Forecast Model" button to see the trajectory.
-
-Click "📈 AI Analysis" to generate the strategic report.
-
-Click "📄 Download PDF" to export the final document.
-
-🛠️ Technology Stack
-Frontend: Streamlit
-
-Data Processing: Pandas
-
-Visualization: Plotly Interactive Charts
-
-Reporting: FPDF (PDF Generation Engine)
-
-Architecture: Modular "Input-Process-Export" Pipeline
-
-Student: Amal Mathew | Course: Computer Science Project
+**Student:** Amal Mathew | **Course:** Computer Science Project
