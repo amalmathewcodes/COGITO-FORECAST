@@ -38,7 +38,7 @@ pip install -r requirements.txt
 Step 3: Run the Application
 Bash
 streamlit run app.py
-```
+
 🧪 How to Test (Demo Data)
 To facilitate immediate testing, a sample dataset has been provided in this repository.
 
