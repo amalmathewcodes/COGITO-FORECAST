@@ -38,3 +38,31 @@ pip install -r requirements.txt
 Step 3: Run the Application
 Bash
 streamlit run app.py
+```
+🧪 How to Test (Demo Data)
+To facilitate immediate testing, a sample dataset has been provided in this repository.
+
+Download the file sample_financials.csv from the file list above.
+
+Launch the app using the command above.
+
+In the Sidebar, click "Browse files" and select sample_financials.csv.
+
+Click the "🚀 Run Forecast Model" button to see the trajectory.
+
+Click "📈 AI Analysis" to generate the strategic report.
+
+Click "📄 Download PDF" to export the final document.
+
+🛠️ Technology Stack
+Frontend: Streamlit
+
+Data Processing: Pandas
+
+Visualization: Plotly Interactive Charts
+
+Reporting: FPDF (PDF Generation Engine)
+
+Architecture: Modular "Input-Process-Export" Pipeline
+
+Student: Amal Mathew | Course: Computer Science Project
